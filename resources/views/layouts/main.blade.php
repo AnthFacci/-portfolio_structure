@@ -15,28 +15,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
-<body >
-    <header class="">
-        <img src="{{ asset('img/logo.png') }}" alt="logo" id="logo" class="h-14">
-        <div class="head h-10">
-                <ol>
-                    <li><a href="" class="btnHeader">About</a></li>
-                    <li><a href="" class="btnHeader">Work</a></li>
-                    <li><a href="" class="btnHeader">Contact</a></li>
-                </ol>
-                <a href="#" id="btnCurriculo">Resume</a>
-            </div>
-    </header>
+<body>
 
-    <main class="grow h-full flex flex-col">
-            <section class="flex flex-col flex  h-2/4 items-center gap-2">
-                @yield('content')
-            </section>
-            @yield('OtherContent')
-    </main>
+    <div class="circles border">
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+        <div class="circlesItem"></div>
+    </div>
 
-    <footer class="h-20 flex justify-center items-center h-20">
-        ####
-    </footer>
+        <header class="">
+            <img src="{{ asset('img/logo.png') }}" alt="logo" id="logo" class="h-14">
+            <div class="head h-10">
+                    <ol>
+                        <li><a href="" class="btnHeader">About</a></li>
+                        <li><a href="" class="btnHeader">Work</a></li>
+                        <li><a href="" class="btnHeader">Contact</a></li>
+                    </ol>
+                    <a href="#" id="btnCurriculo">Resume</a>
+                </div>
+        </header>
+
+        <main class="grow h-full flex flex-col">
+                <section class="flex flex-col flex  h-2/4 items-center gap-2">
+                    @yield('content')
+                </section>
+                @yield('OtherContent')
+        </main>
+
+        <footer class="h-20 flex justify-center items-center h-20">
+            ####
+        </footer>
+    
 </body>
 </html>

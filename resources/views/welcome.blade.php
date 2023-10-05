@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<h1 class="flex justify-center text-[65px] pt-32 color" id="animationH1">Anthony Faccioli</h1>
+<h1 class="flex justify-center text-[65px] pt-[170px] color" id="animationH1">Anthony Faccioli</h1>
 <p class="flex justify-center text-[19px] subClassColor">Software engineer, Student & Front-end Developer </p>
 <div class="w-10 flex flex-col justify-center gap-2 items-center h-1/4 icons absolute left-[65px] bottom-[40px] ">
     <a href="" class="flex justify-center fixed bottom-[266px] btnAbsol rounded-full border-0"><img src="{{ asset('img/github.png') }}" alt="iconGIT" id="icons"></a>
