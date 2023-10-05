@@ -1,0 +1,21 @@
+Route::get('/teste/{id}', function ($id){
+      
+     return view('funga', ['id' => $id]);    
+});
+
+------------------------------
+
+EXAMPLE FUNCTION CONTROLLER
+
+public function teste($id = null, $name = null){
+        return view('funga', ['id' => $id,
+    'name' => $name]);   
+}
+
+CONEXAO DO CONTROLLER COM A ROUTE - 
+Route::get('/teste/{id?}/{name?}', [UserController::class, 'teste'])->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
+
+
+You can give a name to your route, how you can see bellow, its good for a redirection in html
+
+Route::get('/teste/{id?}/{name?}', [UserController::class, 'teste'])->where(['id' => '[0-9]+', 'name' => '[a-z]+'])->name('testeSup');

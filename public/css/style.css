@@ -1,0 +1,208 @@
+/****************************************************************************************** DEFAULT CSS  ****************************************************************************************/
+
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    width: 100%;
+    height: 280vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #3C3744;
+}
+
+
+/****************************************************************************************** HEADER CSS  ****************************************************************************************/
+
+
+.head{
+    padding: 28px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 18px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #04053A;
+    font-weight:bold;
+}
+
+header img{
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header ol{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.btnHeader:hover{
+    color: #00787A;
+}
+
+
+#btnCurriculo{
+    border: 3px solid #00787A;
+    border-radius: 6px;
+    padding: 7px;
+    color: #00787A;
+    transition: 0.8s;
+}
+
+
+#btnCurriculo:hover {
+    transform: rotate(10deg);
+    transition: transform 0.2s ease-in-out;
+    color: #04053A;
+    
+} 
+
+#logo{
+    height: 120px;
+    transition: 0.6s;
+}
+
+#logo:hover{
+    transform: scale(1.4);
+}
+
+/* #btnCurriculo:hover{
+    font-size: 1.2em; /* Nova tamanho da fonte */
+    /* transition: font-size 0.2s ease-in-out; / */
+/* 
+} */
+ 
+/****************************************************************************************** SECTION CSS  ****************************************************************************************/
+
+section{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #spanFacc{
+    color: #00787A;
+    padding-left: 4px;
+} */
+
+.color{
+    color: #D6D6D6;
+}
+
+.subClassColor{
+    color: #010225;
+}
+
+.icons{
+    width: 22px;
+    height: 22px;
+}
+
+#icons{
+    width: 22px;
+    height: 22px;
+}
+
+#iconsGM{
+    width: 22px;
+    height: 26px;
+}
+
+#iconsLK{
+    width: 22px;
+    height: 20px;
+}
+
+#iconsIG{
+    width: 22px;
+    height: 21px;
+}
+
+.btnAbsol{
+    /* transition: 0.6s; */
+    transition: transform 0.7s ease-in-out;
+}
+
+.btnAbsol:hover{
+    /* transform: scale(1.4);
+    color: white; */
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+}
+
+#animationH1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: text-shadow 0.3s ease;
+}
+
+#animationH1:hover{
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+.btnProject{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    /* background-color: #006466; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: #010225;
+    transition: background-color 0.3s;    
+    border: 2px solid #010225;
+  }
+ 
+.btnProject:hover {
+    background-color: #322D39;
+  }
+
+/****************************************************************************************** FOOTER CSS  ****************************************************************************************/
+
+
+footer{
+    color: #04053A;
+    font-weight: bold;
+}
+
+
+
+/****************************************************************************************** EXTRA CSS  ****************************************************************************************/
+
+
+::-webkit-scrollbar {
+    width: 13px; 
+    max-height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #040539; 
+    border: 3px solid #595266;
+    border-radius: 6px; 
+    height: 20px;
+}
+
+
+::-webkit-scrollbar-track-piece{  
+
+    height: 5px;
+}
+
