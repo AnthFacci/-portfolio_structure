@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <div class="circles border">
+    <div class="circles">
         <div class="circlesItem"></div>
         <div class="circlesItem"></div>
         <div class="circlesItem"></div>
